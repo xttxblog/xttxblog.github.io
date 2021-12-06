@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2021/12/06/%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>《Java核心技术》第4章.对象与类</title>
     <url>/2021/12/06/OOP%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<h1 id="OOP概述"><a href="#OOP概述" class="headerlink" title="OOP概述"></a>OOP概述</h1><h2 id="1-类"><a href="#1-类" class="headerlink" title="1.类"></a>1.类</h2><ul>
@@ -9,15 +14,21 @@
 <li>封装是处理对象的一个重要概念。</li>
 <li>对象中的数据称为实例字段</li>
 <li>操作数据的过程称为方法</li>
-<li>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。<h2 id="2-对象"><a href="#2-对象" class="headerlink" title="2.对象"></a>2.对象</h2></li>
+<li>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。</li>
+</ul>
+<h2 id="2-对象"><a href="#2-对象" class="headerlink" title="2.对象"></a>2.对象</h2><ul>
 <li>对象的三个主要特征<ol>
 <li>对象的行为</li>
 <li>对象的状态</li>
-<li>对象的标识<h2 id="3-识别类"><a href="#3-识别类" class="headerlink" title="3.识别类"></a>3.识别类</h2></li>
+<li>对象的标识</li>
 </ol>
 </li>
+</ul>
+<h2 id="3-识别类"><a href="#3-识别类" class="headerlink" title="3.识别类"></a>3.识别类</h2><ul>
 <li>首先从识别类开始，然后再为各个类添加方法</li>
-<li>分析问题的过程中寻找名词，而方法对应着动词<h2 id="4-类之间的关系"><a href="#4-类之间的关系" class="headerlink" title="4.类之间的关系"></a>4.类之间的关系</h2></li>
+<li>分析问题的过程中寻找名词，而方法对应着动词</li>
+</ul>
+<h2 id="4-类之间的关系"><a href="#4-类之间的关系" class="headerlink" title="4.类之间的关系"></a>4.类之间的关系</h2><ul>
 <li>依赖（uses-a）<br>如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。<br>应该尽量将相互依赖的类减到最少，尽可能减少类之间的耦合。</li>
 <li>聚合（has-a）<br>类A的对象包含类B的对象。</li>
 <li>继承（is-a）<br>表示一个更特殊的类和一个更一般的类之间的关系。</li>
