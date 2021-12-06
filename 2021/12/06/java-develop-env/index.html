@@ -13,7 +13,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Tag: 有道云笔记 |  小唐同学的BLOG</title>
+      <title> 小唐同学的BLOG</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -59,56 +59,247 @@
       
     <main class="content on">
       <section class="outer">
-  
-  
-  <article class="articles">
-    
-    
-    <h1 class="page-type-title">#&nbsp有道云笔记</h1>
-    
-    
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2021" class="archive-year">2021</a>
-    </div>
-    <div class="archives">
-      
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/12/04/%E5%AD%A6%E4%B9%A0markdown/" class="archive-article-date">
-  <time datetime="2021-12-04T10:52:57.173Z" itemprop="datePublished">12/04</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/12/04/%E5%AD%A6%E4%B9%A0markdown/"
-    >Markdown学习笔记</a> 
-</h2>
+  <article
+  id="post-java-develop-env"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+     
+    <div class="article-meta">
+      <a href="/2021/12/06/java-develop-env/" class="article-date">
+  <time datetime="2021-12-06T06:08:16.100Z" itemprop="datePublished">2021-12-06</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">559</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">2 分钟</span>
+        </span>
+    </span>
+</div>
  
-
-    </header>
-    
-    
+    </div>
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/" rel="tag">有道云笔记</a></li></ul>
+    <div class="tocbot"></div>
 
-    
-  </div>
-</article>
-      
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id=""><a href="#" class="headerlink" title="-"></a>-</h1><hr>
+<p>title: Java 开发环境<br>author: 唐凯鹏<br>categories: java基础<br>tags:</p>
+<ul>
+<li>java基础</li>
+</ul>
+<hr>
+<h1 id="Java-开发环境"><a href="#Java-开发环境" class="headerlink" title="Java 开发环境"></a>Java 开发环境</h1><blockquote>
+<p>📌 <strong>关键词：</strong> JAVA_HOME、CLASSPATH、Path、环境变量、IDE</p>
+</blockquote>
+<!-- TOC depthFrom:2 depthTo:3 -->
+
+<ul>
+<li><a href="#1-%E4%B8%8B%E8%BD%BD">1. 下载</a></li>
+<li><a href="#2-%E5%AE%89%E8%A3%85">2. 安装</a></li>
+<li><a href="#3-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F">3. 环境变量</a><ul>
+<li><a href="#31-windows">3.1. Windows</a></li>
+<li><a href="#32-linux">3.2. Linux</a></li>
+</ul>
+</li>
+<li><a href="#4-%E6%B5%8B%E8%AF%95%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F">4. 测试安装成功</a></li>
+<li><a href="#5-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7">5. 开发工具</a></li>
+<li><a href="#6-%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8Fhello-world">6. 第一个程序：Hello World</a></li>
+</ul>
+<!-- /TOC -->
+
+<h2 id="1-下载"><a href="#1-下载" class="headerlink" title="1. 下载"></a>1. 下载</h2><p>进入 <a target="_blank" rel="noopener" href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 官方下载地址</a> ，根据自己的环境选择下载所需版本。</p>
+<h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2. 安装"></a>2. 安装</h2><p>windows 环境的 jdk 包是 exe 安装文件，启动后根据安装向导安装即可。</p>
+<p>Linux 环境的 jdk 包，解压到本地即可。</p>
+<h2 id="3-环境变量"><a href="#3-环境变量" class="headerlink" title="3. 环境变量"></a>3. 环境变量</h2><h3 id="3-1-Windows"><a href="#3-1-Windows" class="headerlink" title="3.1. Windows"></a>3.1. Windows</h3><p>计算机 &gt; 属性 &gt; 高级系统设置 &gt; 环境变量</p>
+<p>添加以下环境变量：</p>
+<p><code>JAVA_HOME</code>：<code>C:\Program Files (x86)\Java\jdk1.8.0_91</code> （根据自己的实际路径配置）</p>
+<p><code>CLASSPATH</code>：<code>.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;</code> （注意前面有个”.”）</p>
+<p><code>Path</code>：<code>%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;</code></p>
+<h3 id="3-2-Linux"><a href="#3-2-Linux" class="headerlink" title="3.2. Linux"></a>3.2. Linux</h3><p>执行 <code>vi /etc/profile</code> ，编辑环境变量文件</p>
+<p>添加两行：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=path/to/java</span><br><span class="line">export PATH=JAVA_HOME/bin:JAVA_HOME/jre/bin:</span><br></pre></td></tr></table></figure>
+
+<p>执行 <code>source /etc/profile</code> ，立即生效。</p>
+<h2 id="4-测试安装成功"><a href="#4-测试安装成功" class="headerlink" title="4. 测试安装成功"></a>4. 测试安装成功</h2><p>执行命令 <code>java -version</code> ，如果安装成功，会打印当前 java 的版本信息。</p>
+<h2 id="5-开发工具"><a href="#5-开发工具" class="headerlink" title="5. 开发工具"></a>5. 开发工具</h2><p>工欲善其事，必先利其器。编写 Java 程序，当然有必要选择一个合适的 IDE。</p>
+<p>IDE（Integrated Development Environment，即集成开发环境）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。</p>
+<p>常见的 Java IDE 如下：</p>
+<ul>
+<li>Eclipse - 一个开放源代码的、基于 Java 的可扩展开发平台。</li>
+<li>NetBeans - 开放源码的 Java 集成开发环境，适用于各种客户机和 Web 应用。</li>
+<li>IntelliJ IDEA - 在代码自动提示、代码分析等方面的具有很好的功能。</li>
+<li>MyEclipse - 由 Genuitec 公司开发的一款商业化软件，是应用比较广泛的 Java 应用程序集成开发环境。</li>
+<li>EditPlus - 如果正确配置 Java 的编译器“Javac”以及解释器“Java”后，可直接使用 EditPlus 编译执行 Java 程序。</li>
+</ul>
+<h2 id="6-第一个程序：Hello-World"><a href="#6-第一个程序：Hello-World" class="headerlink" title="6. 第一个程序：Hello World"></a>6. 第一个程序：Hello World</h2><p>添加 HelloWorld.java 文件，内容如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>执行后，控制台输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello World</span><br></pre></td></tr></table></figure>
+ 
+      <!-- reward -->
       
     </div>
-  </div>
-  
-  
+    
 
-  
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://xttxblog.github.io/2021/12/06/java-develop-env/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2021/12/06/java-exception/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            深入理解 Java 异常
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2021/12/06/java-control-statement/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title"></div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "",
+    app_key: "",
+    path: window.location.pathname,
+    avatar: "monsterid",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -245,6 +436,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link
