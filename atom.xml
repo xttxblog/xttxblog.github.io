@@ -6,7 +6,7 @@
   <link href="https://xttxblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://xttxblog.github.io/"/>
-  <updated>2021-12-04T10:54:11.014Z</updated>
+  <updated>2021-12-06T02:21:50.615Z</updated>
   <id>https://xttxblog.github.io/</id>
   
   <author>
@@ -17,13 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>《Java核心技术》第4章.对象与类</title>
+    <link href="https://xttxblog.github.io/2021/12/06/OOP%E6%A6%82%E8%BF%B0/"/>
+    <id>https://xttxblog.github.io/2021/12/06/OOP%E6%A6%82%E8%BF%B0/</id>
+    <published>2021-12-06T02:21:50.456Z</published>
+    <updated>2021-12-06T02:21:50.615Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="OOP概述"><a href="#OOP概述" class="headerlink" title="OOP概述"></a>OOP概述</h1><p>##1.类</p><ul><li>类是构造对象的模板或蓝图</li><li>由类构造对象的过程成为创建类的实例</li><li>封装是处理对象的一个重要概念。</li><li>对象中的数据称为实例字段</li><li>操作数据的过程称为方法</li><li>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。<br>##2.对象</li><li>对象的三个主要特征<ol><li>对象的行为</li><li>对象的状态</li><li>对象的标识<br>##3.识别类</li></ol></li><li>首先从识别类开始，然后再为各个类添加方法</li><li>分析问题的过程中寻找名词，而方法对应着动词<br>##4.类之间的关系</li><li>依赖（uses-a）<br>如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。<br>应该尽量将相互依赖的类减到最少，尽可能减少类之间的耦合。</li><li>聚合（has-a）<br>类A的对象包含类B的对象。</li><li>继承（is-a）<br>表示一个更特殊的类和一个更一般的类之间的关系。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;OOP概述&quot;&gt;&lt;a href=&quot;#OOP概述&quot; class=&quot;headerlink&quot; title=&quot;OOP概述&quot;&gt;&lt;/a&gt;OOP概述&lt;/h1&gt;&lt;p&gt;##1.类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;类是构造对象的模板或蓝图&lt;/li&gt;
+&lt;li&gt;由类构造对象的过程成为创建类的实例</summary>
+      
+    
+    
+    
+    <category term="java基础" scheme="https://xttxblog.github.io/categories/java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="对象" scheme="https://xttxblog.github.io/tags/%E5%AF%B9%E8%B1%A1/"/>
+    
+    <category term="类" scheme="https://xttxblog.github.io/tags/%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown学习笔记</title>
     <link href="https://xttxblog.github.io/2021/12/04/%E5%AD%A6%E4%B9%A0markdown/"/>
     <id>https://xttxblog.github.io/2021/12/04/%E5%AD%A6%E4%B9%A0markdown/</id>
     <published>2021-12-04T10:52:57.173Z</published>
-    <updated>2021-12-04T10:54:11.014Z</updated>
+    <updated>2021-12-04T11:34:18.209Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4"><a href="#标题4" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5"><a href="#标题5" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6"><a href="#标题6" class="headerlink" title="标题6"></a>标题6</h6><blockquote><p>这是一段引用</p></blockquote><p>把大象放进冰箱：</p><ol><li>打开冰箱</li><li>把大象放进去</li><li>关上冰箱</li></ol><p>无序列表：</p><ul><li>111</li><li>222</li><li>333</li></ul><p>明天要做的事：</p><ul><li><input disabled="" type="checkbox"> 吃饭</li><li><input disabled="" type="checkbox"> 睡觉</li><li><input disabled="" type="checkbox"> 打豆豆</li></ul><p>代码块:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">      System.out.println(<span class="string">&quot;Hello,World!&quot;</span>)</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><p>数学公式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E = mc^2</span><br></pre></td></tr></table></figure><p>表格：</p><table><thead><tr><th>姓名</th><th>年龄</th></tr></thead><tbody><tr><td>row 1 col 1</td><td>row 1 col 2</td></tr><tr><td>row 2 col 1</td><td>row 2 col 2</td></tr></tbody></table><p>脚注：<br> 一键三连^[三连]</p><p>横线：</p><hr><p>链接：<br><a href="https://www.baidu.com/">百度</a></p><p>请参考<a href="#%E6%A0%87%E9%A2%981">标题1</a></p><p><em>斜体</em></p><p><strong>加粗</strong></p><p>H<del>2</del>O</p><p>X^2^</p><p>==这是一段高亮文字==</p><p><a href="https://static01.imgkr.com/temp/a6ad2a607d1640b5962fe14fe6e403ff.jpg">https://static01.imgkr.com/temp/a6ad2a607d1640b5962fe14fe6e403ff.jpg</a></p><p><a href="https://static01.imgkr.com/temp/06c109f04d2f41738a4a749ed2defb86.jpg">https://static01.imgkr.com/temp/06c109f04d2f41738a4a749ed2defb86.jpg</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4"><a href="#标题4" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5"><a href="#标题5" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6"><a href="#标题6" class="headerlink" title="标题6"></a>标题6</h6><blockquote><p>这是一段引用</p></blockquote><p>把大象放进冰箱：</p><ol><li>打开冰箱</li><li>把大象放进去</li><li>关上冰箱</li></ol><p>无序列表：</p><ul><li>111</li><li>222</li><li>333</li></ul><p>明天要做的事：</p><ul><li><input disabled="" type="checkbox"> 吃饭</li><li><input disabled="" type="checkbox"> 睡觉</li><li><input disabled="" type="checkbox"> 打豆豆</li></ul><p>代码块:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">      System.out.println(<span class="string">&quot;Hello,World!&quot;</span>)</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><p>数学公式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E = mc^2</span><br></pre></td></tr></table></figure><p>表格：</p><table><thead><tr><th>姓名</th><th>年龄</th></tr></thead><tbody><tr><td>row 1 col 1</td><td>row 1 col 2</td></tr><tr><td>row 2 col 1</td><td>row 2 col 2</td></tr></tbody></table><p>脚注：<br>一键三连^[三连]</p><p>横线：</p><hr><p>链接：<br><a href="https://www.baidu.com/">百度</a></p><p>请参考<a href="#%E6%A0%87%E9%A2%981">标题1</a></p><p><em>斜体</em></p><p><strong>加粗</strong></p><p>H<del>2</del>O</p><p>X^2^</p><p>==这是一段高亮文字==</p><p><img src="" alt="图1"><a href="https://static01.imgkr.com/temp/ad944187032944ec863ce55134f3b37a.png%E2%80%9C%E5%9B%BE1%E2%80%9D">https://static01.imgkr.com/temp/ad944187032944ec863ce55134f3b37a.png“图1”</a>)<br><img src="" alt="图2"><a href="https://static01.imgkr.com/temp/16e89e377b844eec9376826b16baee22.png%E2%80%9C%E5%9B%BE2%E2%80%9D">https://static01.imgkr.com/temp/16e89e377b844eec9376826b16baee22.png“图2”</a>)</p>]]></content>
     
     
       
